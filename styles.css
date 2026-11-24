@@ -21,8 +21,8 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--paper);
-  font-family: Raleway, "Arial", sans-serif;
-  line-height: 1.6;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
 }
 
 img {
@@ -84,7 +84,7 @@ a {
 
 .main-nav a {
   font-size: 0.88rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.06em;
   text-decoration: none;
   text-transform: uppercase;
@@ -116,10 +116,10 @@ a {
 .feature-title,
 .quality-title {
   margin: 0;
-  font-family: Impact, "Arial Narrow", sans-serif;
-  font-weight: 900;
+  font-family: inherit;
+  font-weight: 400;
   letter-spacing: 0.015em;
-  line-height: 0.98;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -143,7 +143,7 @@ a {
   margin: 0;
   color: var(--red);
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.055em;
   text-transform: uppercase;
 }
@@ -167,7 +167,7 @@ a {
   color: #fff;
   background: var(--red);
   font-size: 0.88rem;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.045em;
   text-decoration: none;
   text-transform: uppercase;
@@ -203,7 +203,7 @@ a {
 
 .brand-statement strong {
   display: block;
-  font-family: Impact, "Arial Narrow", sans-serif;
+  font-family: inherit;
   font-size: clamp(2.4rem, 5vw, 4.7rem);
   font-weight: 400;
   line-height: 0.94;
@@ -297,7 +297,7 @@ a {
 .feature-card a {
   width: fit-content;
   margin-top: 0.9rem;
-  font-weight: 800;
+  font-weight: 400;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.2em;
 }
@@ -329,7 +329,7 @@ a {
 
 .sector-copy h3 {
   margin: 0 0 0.45rem;
-  font-family: Impact, "Arial Narrow", sans-serif;
+  font-family: inherit;
   font-size: 1.75rem;
   font-weight: 400;
   letter-spacing: 0.025em;
@@ -373,7 +373,7 @@ a {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .quality-list li::before {
@@ -447,7 +447,7 @@ a {
 
 .footer-socials a {
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -474,11 +474,11 @@ a {
 
 .catalog-title {
   margin: 0;
-  font-family: Impact, "Arial Narrow", sans-serif;
+  font-family: inherit;
   font-size: clamp(3rem, 6vw, 5.5rem);
-  font-weight: 900;
+  font-weight: 400;
   letter-spacing: 0.015em;
-  line-height: 0.98;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -503,7 +503,7 @@ a {
 
 .catalog-back {
   font-size: 0.9rem;
-  font-weight: 800;
+  font-weight: 400;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.2em;
 }
@@ -553,7 +553,7 @@ a {
 
 .catalog-product h2 {
   margin: 0;
-  font-family: Impact, "Arial Narrow", sans-serif;
+  font-family: inherit;
   font-size: clamp(1.15rem, 1.55vw, 1.45rem);
   font-weight: 400;
   line-height: 1.15;
@@ -562,7 +562,7 @@ a {
 .catalog-price {
   margin: 0.65rem 0 1rem;
   font-size: 0.98rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .catalog-product .button {
@@ -588,7 +588,7 @@ a {
   background: #168b50;
   box-shadow: 0 5px 22px rgb(0 0 0 / 22%);
   font-size: 0.92rem;
-  font-weight: 800;
+  font-weight: 400;
   text-decoration: none;
 }
 
