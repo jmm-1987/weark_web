@@ -1,3 +1,35 @@
+@font-face {
+  font-family: Anton;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/anton-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("fonts/dm-sans-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("fonts/raleway-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("fonts/roboto-latin.woff2") format("woff2");
+}
+
 :root {
   color-scheme: light;
   --ink: #171717;
@@ -21,7 +53,7 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--paper);
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "DM Sans", sans-serif;
   line-height: 1.5;
 }
 
@@ -83,11 +115,10 @@ a {
 }
 
 .main-nav a {
+  font-family: Raleway, sans-serif;
   font-size: 0.88rem;
   font-weight: 400;
-  letter-spacing: 0.06em;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .main-nav a:hover,
@@ -116,10 +147,10 @@ a {
 .feature-title,
 .quality-title {
   margin: 0;
-  font-family: inherit;
+  font-family: Anton, Impact, sans-serif;
   font-weight: 400;
   letter-spacing: 0.015em;
-  line-height: 1.2;
+  line-height: 0.98;
   text-transform: uppercase;
 }
 
@@ -143,7 +174,8 @@ a {
   margin: 0;
   color: var(--red);
   font-size: 1rem;
-  font-weight: 700;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
   letter-spacing: 0.055em;
   text-transform: uppercase;
 }
@@ -167,7 +199,8 @@ a {
   color: #fff;
   background: var(--red);
   font-size: 0.88rem;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
   letter-spacing: 0.045em;
   text-decoration: none;
   text-transform: uppercase;
@@ -203,7 +236,7 @@ a {
 
 .brand-statement strong {
   display: block;
-  font-family: inherit;
+  font-family: Anton, Impact, sans-serif;
   font-size: clamp(2.4rem, 5vw, 4.7rem);
   font-weight: 400;
   line-height: 0.94;
@@ -297,7 +330,8 @@ a {
 .feature-card a {
   width: fit-content;
   margin-top: 0.9rem;
-  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.2em;
 }
@@ -329,7 +363,7 @@ a {
 
 .sector-copy h3 {
   margin: 0 0 0.45rem;
-  font-family: inherit;
+  font-family: Anton, Impact, sans-serif;
   font-size: 1.75rem;
   font-weight: 400;
   letter-spacing: 0.025em;
@@ -474,11 +508,11 @@ a {
 
 .catalog-title {
   margin: 0;
-  font-family: inherit;
+  font-family: Anton, Impact, sans-serif;
   font-size: clamp(3rem, 6vw, 5.5rem);
   font-weight: 400;
   letter-spacing: 0.015em;
-  line-height: 1.2;
+  line-height: 0.98;
   text-transform: uppercase;
 }
 
@@ -502,8 +536,9 @@ a {
 }
 
 .catalog-back {
+  font-family: Raleway, sans-serif;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.2em;
 }
@@ -588,7 +623,8 @@ a {
   background: #168b50;
   box-shadow: 0 5px 22px rgb(0 0 0 / 22%);
   font-size: 0.92rem;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
   text-decoration: none;
 }
 
